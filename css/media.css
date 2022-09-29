@@ -1,0 +1,58 @@
+@media (max-width: 600px) {
+  .price .boxs,
+  .price .fotter {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .services .boxs,
+  .price .message,
+  .about .one {
+    flex-direction: column;
+  }
+  .team .boxs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .team .box,
+  .portfolio .box {
+    flex-basis: 40%;
+  }
+  .portfolio .fotter {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .portfolio .fotter a {
+    width: fit-content;
+  }
+  .about .botton .boxs {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about .botton .box {
+    padding: 63px 10px;
+    width: 85%;
+  }
+}
+@media (max-width: 992px) {
+  .home .nav i {
+    display: block;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .home ul {
+    display: none;
+  }
+  .home li a {
+    width: 100%;
+    display: block;
+  }
+  .price .message,
+  .contact .plus {
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+}
